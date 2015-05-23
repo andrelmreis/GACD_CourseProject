@@ -10,4 +10,4 @@ A detailed description of the raw data set is present in the website listed abov
 - The activities files for the test (y_test.txt) and train (y_train.txt) groups were merged and added as a new column to the dataset;
 - The numbering scheme for the activities variable was replaced by the actual labels for the activities;
 - The data set was grouped by activity and subject's ID respectively;
-- The final tidy data set contains the average of each variable for each activity and each subject. There are 180 lines (6 activities for 30 subjects) and 81 columns.
+- The final tidy data set contains the average of each variable for each activity and each subject. There are 181 lines (6 activities for 30 subjects + Variable Names) and 81 columns.
