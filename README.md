@@ -11,7 +11,7 @@ Summary of the analysis design:
 - Then the variables corresponding to the mean and standard deviation were selected by greping the names which contained "mean" or "std".
 - Logical indexing was applied to reduce the measurement data into these variables.
 - The Subjects' ID and activities for test and train data sets were joined and added as columns to the measurement data frame. The names for these variables "Subject" and "Activity" were appended to the names vector.
-- Finally the variable names were added to the data frame.
+- The variable names were added to the data frame.
 - A loop structure was used to go through the "Activity" column and replace the numbering scheme with the actual labels found in "activity_labels.txt".
 - Finally the data was grouped by "Activity" and "Subject" and the mean for each measurement for each group was calculated. 
 - The resulting data frame was then saved in a file "tidy_dataset.txt". 
